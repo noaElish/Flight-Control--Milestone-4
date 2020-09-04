@@ -1,0 +1,98 @@
+﻿
+h1 {
+    background-color: #414143;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Calibri, cursive, sans-serif;
+}
+
+#table {
+    column-count: 6;
+}
+
+#warning {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    height: 20px;
+    background-color: #fb432f;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    margin-bottom: 1px;
+}
+
+#wrapper {
+    width: 100%;
+    display: grid;
+    height: 100%;
+    overflow: hidden;
+    border: dashed thick black;
+    border: dotted;
+    grid-template-columns: 1fr 1fr;
+    background-color: #808080;
+}
+
+#leftSide {
+    display: grid;
+    height: 100%;
+    width: 70%;
+    border: dashed thick black;
+    grid-template-columns: 1fr;
+}
+
+#rightSide {
+    width: 29%;
+    height: 100%;
+    display: grid;
+    border: dashed thick black;
+    grid-template-columns: 1fr;
+}
+
+
+#flightDetails {
+    grid-column: 1;
+    grid-row: 2;
+    height: 27%;
+    width: 970px;
+    margin-top: 9px;
+    margin-left: 2px;
+    overflow: auto;
+    overflow-y: scroll;
+    background-size: 100% 100%;
+    background-image: url(https://www.ajwalton.co.uk/wp-content/uploads/2014/08/purple-grey-background-texture.jpg);
+    border: 1.5px solid white;
+    border-radius: 5px;
+    opacity: 0.95;
+}
+
+#myFlights {
+    grid-column: 2;
+    grid-row: 1;
+    height: 45%;
+    width: 95%;
+    margin-left: 3%;
+    margin-top: 3%;
+    overflow: auto;
+    overflow-y: scroll;
+    border: 1.5px solid white;
+    background-size: 100% 100%;
+    background-image: url(https://www.ajwalton.co.uk/wp-content/uploads/2014/08/purple-grey-background-texture.jpg);
+    border-radius: 5px;
+    opacity: 0.95;
+}
+
+#externalFlight {
+    grid-column: 2;
+    grid-row: 2;
+    height: 45%;
+    overflow: auto;
+    overflow-y: scroll;
+    width: 95%;
+    margin-left: 3%;
+    margin-top: 2%;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    opacity: 0.95;
+    background-size: 100% 100%;
+    background-image: url(https://www.ajwalton.co.uk/wp-content/uploads/2014/08/purple-grey-background-texture.jpg);
+}
