@@ -36,10 +36,15 @@ the programm know to pin the location of the plain every few second- which gives
 
 #### **How to use**
 1. when downloading the code from GitHub, a new zip directory will appear. 
-please open the zip and Extract the code to a new directory that will be used from now- called "FlightSimulator".
-2. comprass all the file into a zip file called "FlightSimulator"- all except the bat and server.
-3. place the server and bat in the same directory in the same level as the zip called "FlightSimulator".
-4. open the server.
-5. open the bat.
+please open the zip and Extract the code to a new directory that will be used from now- called "FlightControl".
+2. comprass all the file into a zip file called "FlightControl"- all except the bat.
+3. place the bat in the same directory in the same level as the zip called "FlightControl".
+4. make sure to leave the bat and zip only in the file, and nothing else but that. 
+5. click the bat- and a new window will appear running the files. 
+6. when the process in over, a new window will appear with information regarding the programm. copy the url from the second line as shown in the picture bellow-
+
+ <p align="center">
+ <img src=".\3.png" width="500" height="260">
+</p>
 
 
