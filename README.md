@@ -8,31 +8,23 @@
 
 ### **Basic information**
 * Purpose of this extercise-
-we created an interface for the operation of an aircraft. our plain response to instructions from the user regarding the rudder and the variouse control surfaces. 
-the simulartor is desplayed as graphical interface of the cockpit, as shown in the picture below:
+we created a control system to monitor active flights, as well as adding new flights. the programm works in a way so that it shows only the active flights at the moment. the system reset every few second, in order to be as accurate as possible. 
+in addition, our system is in sync with other systems as well. as tou can see, the system follows internal flights- the ones we inserted, as well as external flights from external flights. 
 
  <p align="center">
  <img src=".\fc-image.png" width="500" height="260">
 </p>
 
-* Four control surfaces:
-   * Joystick:
-   Steering wheel - steering wheel direction 
-   can be controlled using right and left keys. 
-   Elevator - rudder
-    can be controlled using up and down keys. 
-   * Sliders:
-   Aileron - balances
-   Throttle - throttle
 
    
 ### **How does it work?**
-In order to log to our programm, a user needs to insert port and ip on the left side of the screen.
-note that theres is already an ip and port set by default, that can be changed by typing new ones in the boxes.
-if communication is formed sucssesfully- a green light will appear and a new flight will be presented on the map using an airplain pin. 
-to set the direction of the plain, the user can use the four control surfaces as decsribed above.
-the programm know to pin the location of the plain every few second- which gives an exact location. 
-
+If you wish to insert some flight- there are two main ways to do that:
+* External Flights
+you can log as a new system to our system, using the "PostMan" app, following these steps:
+1.
+* Internal Flights
+* you can insert new Json file with the flight detailes and insert it in the "upload new flight" button.
+* you can use the "PostMan" app- 
 
 #### **How to use**
 1. when downloading the code from GitHub, a new zip directory will appear. 
@@ -47,4 +39,5 @@ please open the zip and Extract the code to a new directory that will be used fr
  <img src=".\compile.png" width="700" height="100">
 </p>
 
+7. copy the url and open it.
 
