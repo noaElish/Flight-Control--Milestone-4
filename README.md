@@ -23,8 +23,8 @@ If you wish to insert some flight- there are two main ways to do that:
 you can log as a new system to our system, using the "PostMan" app, following these steps:
 1.
 * Internal Flights
-* you can insert new Json file with the flight detailes and insert it in the "upload new flight" button.
-* you can use the "PostMan" app- 
+  * you can insert new Json file with the flight detailes and insert it in the "upload new flight" button.
+  * you can use the "PostMan" app- 
 
 #### **How to use**
 1. when downloading the code from GitHub, a new zip directory will appear. 
