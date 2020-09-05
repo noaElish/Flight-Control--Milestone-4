@@ -26,7 +26,7 @@ you can log as a new system to our system, using the "PostMan" app, following th
   * you can insert new Json file with the flight detailes and insert it in the "upload new flight" button.
   * you can use the "PostMan" app- 
 
-#### **How to use**
+### **How to use**
 1. when downloading the code from GitHub, a new zip directory will appear. 
 please open the zip and Extract the code to a new directory that will be used from now- called "FlightControl".
 2. comprass all the file into a zip file called "FlightControl"- all except the bat.
