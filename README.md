@@ -44,7 +44,7 @@ please open the zip and Extract the code to a new directory that will be used fr
 6. when the process in over, a new window will appear with information regarding the programm. copy the url from the second line as shown in the picture bellow-
 
  <p align="center">
- <img src=".\running.png" width="900" height="100">
+ <img src=".\running.png" width="700" height="100">
 </p>
 
 
