@@ -12,7 +12,7 @@ we created an interface for the operation of an aircraft. our plain response to 
 the simulartor is desplayed as graphical interface of the cockpit, as shown in the picture below:
 
  <p align="center">
- <img src=".\1.png" width="500" height="260">
+ <img src=".\fc-image.png" width="500" height="260">
 </p>
 
 * Four control surfaces:
@@ -44,7 +44,7 @@ please open the zip and Extract the code to a new directory that will be used fr
 6. when the process in over, a new window will appear with information regarding the programm. copy the url from the second line as shown in the picture bellow-
 
  <p align="center">
- <img src=".\3.png" width="500" height="260">
+ <img src=".\running.png" width="700" height="200">
 </p>
 
 
