@@ -19,11 +19,13 @@ in addition, our system is in sync with other systems as well. as tou can see, t
 ### **How does it work?**
 If you wish to insert some flight- there are two main ways to do that:
 * External Flights- you can log as a new system to our system, using the "Advanced REST client" app, following these steps:
-  * enter the requsded url in the url box and choose the "Post" option.
+  * enter the requsded url in the url box.
+  * use the json format for external flights as shown in in the picture below. 
+  * choose the "Post" option.
    <p align="center">
-   <img src=".\REST.png" width="400" height="260">
+   <img src=".\REST.png" width="500" height="260">
    </p>
-
+ 
 * Internal Flights
   * you can insert new Json file with the flight detailes and insert it in the "upload new flight" button.
     notice the time of the flight in the json should be 3 hours preior to the current time.
