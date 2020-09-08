@@ -12,7 +12,7 @@ we created a control system to monitor active flights, as well as adding new fli
 in addition, our system is in sync with other systems as well. as tou can see, the system follows internal flights- the ones we inserted, as well as external flights from external flights. 
 
  <p align="center">
- <img src=".\fc-image.png" width="500" height="260">
+ <img src=".\fc-image.png" width="500" height="300">
 </p>
 
 
