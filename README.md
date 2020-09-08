@@ -27,7 +27,7 @@ If you wish to insert some flight- there are two main ways to do that:
    </p>
   * to add external flights to the server, copy the external servers url to the "Resquest URL", and add the json flight details in the box below, as shown in    the picture:
    <p align="center">
-   <img src=".\rest2.png" width="500" height="260">
+   <img src=".\rest2.png" width="600" height="260">
    </p>
  
 * Internal Flights
