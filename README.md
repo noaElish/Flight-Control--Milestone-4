@@ -21,8 +21,8 @@ If you wish to insert some flight- there are two main ways to do that:
 * External Flights- you can log as a new system to our system, using the "Advanced REST client" app, following these steps:
   * enter the requsded url in the url box and choose the "Post" option.
    <p align="center">
- <img src=".\REST.png" width="700" height="100">
-</p>
+   <img src=".\REST.png" width="400" height="260">
+   </p>
 
 * Internal Flights
   * you can insert new Json file with the flight detailes and insert it in the "upload new flight" button.
