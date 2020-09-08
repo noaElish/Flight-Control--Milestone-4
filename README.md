@@ -16,15 +16,41 @@ in addition, our system is in sync with other systems as well. as tou can see, t
 </p>
 
 
-   
 ### **How does it work?**
 If you wish to insert some flight- there are two main ways to do that:
-* External Flights
-you can log as a new system to our system, using the "PostMan" app, following these steps:
-1.
+* External Flights- you can log as a new system to our system, using the "Advanced REST client" app, following these steps:
+  * enter the requsded url in the url box and choose the "Post" option.
+   <p align="center">
+ <img src=".\REST.png" width="700" height="100">
+</p>
+
 * Internal Flights
   * you can insert new Json file with the flight detailes and insert it in the "upload new flight" button.
-  * you can use the "PostMan" app- 
+    notice the time of the flight in the json should be 3 hours preior to the current time.
+    
+### **Json format for Internal flights**
+{
+ "passengers": 216,
+ "company_name": "SwissAir",
+ "initial_location": {
+ "longitude": 33.244,
+ "latitude": 31.12,
+ "date_time": "2020-12-26T23:56:21Z"
+ },
+ "segments": [
+ {
+ "longitude": 33.234,
+ "latitude": 31.18,
+ "timespan_seconds": 650
+ },
+ /... more segments.../
+ ]
+}
+### **Json format for External Servers**
+{
+ "ServerId": "[SERVER_ID]",
+ "ServerURL": "www.server.com"
+}
 
 ### **How to use**
 1. when downloading the code from GitHub, a new zip directory will appear. 
