@@ -30,7 +30,7 @@ If you wish to insert some flight- there are two main ways to do that:
   * you can insert new Json file with the flight detailes and insert it in the "upload new flight" button.
     notice the time of the flight in the json should be 3 hours preior to the current time.
     
-### **Json format for Internal flights**
+#### **Json format for Internal flights**
 {
  "passengers": 216,
  "company_name": "SwissAir",
@@ -48,7 +48,7 @@ If you wish to insert some flight- there are two main ways to do that:
  /... more segments.../
  ]
 }
-### **Json format for External Servers**
+#### **Json format for External Servers**
 {
  "ServerId": "[SERVER_ID]",
  "ServerURL": "www.server.com"
